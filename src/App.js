@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-import { Typography } from "@mui/material";
+import ResponsiveAppBar from './components/NavBar'
+import LandingPage from './components/LandingPage'
 
 function App() {
   return (
     <div>
-      <Typography variant="h1">Hi </Typography>
+      <ResponsiveAppBar/>
+      <LandingPage/>
     </div>
   );
 }
